@@ -1,0 +1,54 @@
+
+*{
+  font-family: 'Times New Roman', Times, serif;
+}
+.container{
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(168, 171, 168);
+  margin-top: 10%;
+  box-shadow: 0px 15px 30px black;
+  
+}
+
+
+.form{
+  height: auto;
+}
+label{
+  font-weight: bolder;
+  text-transform: capitalize;
+}
+#si{
+  color:green;
+}
+h3{
+  text-transform: capitalize;
+}
+ @media (max-width:1000px) {
+  .container{
+    width: 80vw;
+    height: 80vh;
+    margin-top:10%;
+   
+  }
+
+ }
+ @media (max-width:800px) {
+  .container{
+    width: 100vw;
+    height: 100vh;
+    margin-top: 0%;
+  }
+
+ }
+ @media (max-width:600px) {
+  .container{
+    width: 100vw;
+    height: 100vh;
+    margin-top: 0%;
+  }
+
+ }
